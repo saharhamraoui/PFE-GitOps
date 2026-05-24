@@ -19,7 +19,7 @@ spec:
         - name: acr-auth
       containers:
         - name: my-app
-          image: saharacr.azurecr.io/my-app:cec43e9449b78b4c824a30a69a1141dcd8498d4a
+          image: saharacr.azurecr.io/my-app:5def1808037b361539cdf947671dd7b75466f3a8
           ports:
             - containerPort: 8080
           resources:
