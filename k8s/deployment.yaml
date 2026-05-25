@@ -15,11 +15,9 @@ spec:
       labels:
         app: my-app
     spec:
-      imagePullSecrets:
-        - name: acr-auth
       containers:
         - name: my-app
-          image: saharacr.azurecr.io/my-app:b06f492133a29c1783873a7bf22e84f246d148ae
+          image: saharacrpfe2026.azurecr.io/pfe-app:latest
           ports:
             - containerPort: 8080
           resources:
