@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: saharacrpfe2026.azurecr.io/pfe-app:6d3616d7ecbd2b08d8201c75431677e4727006b2
+          image: saharacrpfe2026.azurecr.io/pfe-app:f3529f71c5bce90bf0e73cc7366a23872ddfdc6b
           ports:
             - containerPort: 8080
           resources:
